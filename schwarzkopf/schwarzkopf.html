@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sanadi Cosmetics</title>
+    <title>Schwarzkopf</title>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="responsive.css">
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="sch.css">
+    <script src="sch.js"></script>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -18,8 +17,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-
-
 </head>
 
 <body>
@@ -27,13 +24,11 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-
     <nav class="navbar">
         <div class="header">
-            <div class="logo"><img src="images/logo.PNG" alt="logo">
+            <div class="logo"><img src="image/logo.PNG" alt="logo">
             </div>
             <div class="head">
                 <h2 class="heading">Sanadi </h2>
@@ -60,7 +55,7 @@
                     <a href="#">Maxmo-Ringlight</a>
                     <a href="#">Moroccanoil</a>
                     <a href="#">Rica</a>
-                    <a href="schwarzkopf/schwarzkopf.html">Schwarzkopf Pro</a>
+                    <a href="schwarzkopf.html">Schwarzkopf Pro</a>
                     <a href="#">Swiss Beauty</a>
                     <a href="#">Temptu Pro</a>
                     <a href="#">Wella Pro</a>
@@ -131,36 +126,51 @@
                 <a href="#">Help</a>
             </div>
 
-            <div id="main" style="height:auto;">
+            <div id="main">
                 <button class="openbtn" onclick="openNav()">☰ </button>
 
             </div>
 
         </div>
     </nav>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="3000">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/img5.jpg" class="d-block w-100" alt=" " width="50px" height="450px">
-            </div>
-            <div class="carousel-item">
-                <img src="images/img1.jpeg" class="d-block w-100" alt="..." width="50px" height="450px">
-            </div>
-            <div class="carousel-item">
-                <img src="images/temptu.PNG" class="d-block w-100" alt="..." width="50px" height="450px">
-            </div>
-            <div class="carousel-item">
-                <img src="images/schwarzkopf.jpg" class="d-block w-100" alt="... " width="50px" height="450px">
-            </div>
-            <div class="carousel-item">
-                <img src="images/img4.jpeg" class="d-block w-100" alt="... " width="50px" height="450px">
-            </div>
+
+    <div class="hr">
+        <h2>SCHWARZKOPF PROFESSIONAL PRODUCTS COLLECTION</h2>
+    </div>
+    <div class="img1">
+        <img src="image/Schwarzkopf-logo.jpg" class="d-block w-100" alt=" " width="1000px" height="300px">
+    </div>
+
+    <div class="hr">
+        <h3>ALL PRODUCTS</h3>
+    </div>
+    <!-- Product list -->
+    <div class="card">
+        <div class="row">
+            <img src="image/igora vario blond.jpg" alt="" style="max-width: 100%; height: auto;">
+            <span class="title">IGORA VARIO BLOND</span>
+            <span class="title">MRP: Rs1200</span>
+            <button class="desc">Know more</button>
+        </div>
+        <div class="row">
+            <img src="image/GOODBYE YELLOW 300ML.jpg" alt="" style="max-width: 100%; height: auto;">
+            <span class="title">GOODBYE YELLOW NEUTRALISING WASH(300ML)</span>
+            <span class="title">MRP: Rs950</span>
+            <button class="desc">Know more</button>
+        </div>
+        <div class="row">
+            <img src="image/GOODBYE YELLOW 1000ML.jpg" alt="" style="max-width: 100%; height: auto;">
+            <span class="title">GOODBYE YELLOW NEUTRALISING WASH(1000ML)</span>
+            <span class="title">MRP: Rs1650</span>
+            <button class="desc">Know more</button>
+        </div>
+        <div class="row">
+            <img src="c-plus-plus 1.svg" alt="" style="max-width: 100%; height: auto;">
+            <span class="title">Introduction to coding</span>
+            <button class="desc">Know more</button>
         </div>
 
     </div>
-
-
-
 </body>
 
 </html>
