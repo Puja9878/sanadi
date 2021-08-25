@@ -285,12 +285,13 @@
 /* For products list */
 
 .box {
-    /* border: 4px solid black; */
+    border: 4px solid black;
     margin: 5px 0px;
     padding: 15px;
-    height: 33%;
-    width: 33%;
-    display: inline-block;
+    height: 20%;
+    width: 30%;
+    display: inline-flex;
+    flex-direction: column;
     box-sizing: border-box;
 }
 
