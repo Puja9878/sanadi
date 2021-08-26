@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-#navbar {
+.navbar {
     height: 86px;
     display: flex;
     align-items: center;
@@ -319,7 +319,8 @@
 
 /* For Sticky navbar */
 
-.sticky {
+
+/* .sticky {
     position: fixed;
     top: 0;
     width: 100%;
@@ -327,4 +328,4 @@
 
 .sticky+.content {
     padding-top: 60px;
-}
+} */
